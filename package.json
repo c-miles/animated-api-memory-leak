@@ -9,7 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "export:web": "expo export:web",
-    "deploy": "gh-pages -d web-build"
+    "deploy": "expo export:web && gh-pages -d web-build"
   },
   "dependencies": {
     "@expo/metro-runtime": "^4.0.1",
