@@ -18,7 +18,7 @@ export default function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCounter((prev) => prev + 1);
-    }, 10);
+    }, 15);
     return () => clearInterval(interval);
   }, []);
 
