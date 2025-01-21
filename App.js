@@ -78,8 +78,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   box: {
-    width: 80,
-    height: 80,
+    width: 50,
+    height: 50,
     margin: 10,
   },
 });
